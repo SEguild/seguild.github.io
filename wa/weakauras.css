@@ -1,6 +1,17 @@
-body {
-  background: rgb(213,143,17);
-  background: linear-gradient(180deg, rgba(213,143,17,1) 0%, rgba(223,88,12,1) 29%, rgba(0,0,0,1) 92%);
+.bg {
+  background: linear-gradient(180deg, rgba(213,143,17,1), rgba(223,88,12,1), rgba(0,0,0,1) 96%);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+.content {
+  position: absolute;
+}
+html {
+  height: 100%;
+  margin: 0;
 }
 h1 {
   color: orange;
@@ -11,10 +22,29 @@ h2 {
 .titleColor {
   color: black;
 }
-.centerScreen {
+.flexContainerRow{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: space-around;
+  gap: 10px;
+}
+.flexContainerColumn{
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: space-around;
+  gap: 10px;
+}
+.centerItem{
+  align-self: center;
+}
+.extension{
+  height: 50vh;
 }
