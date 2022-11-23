@@ -1,0 +1,36 @@
+# Base configuration
+exclude: [".rvmrc", ".rbenv-version", "README.md", "changelog.md"]
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Title
+name: Synergy Effect
+
+# Author/Organization info to be displayed in the templates
+author:
+  name: BlacKYYYEaglE
+  url: http://seguild.github.io
+
+baseurl: '/'
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl: https://i.imgur.com/nR3YuZq.jpg
+logoalt: Synergy Effect Logo
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Weak Auras
+  internal: true
+  url: ./wa/
+-
+
+
+# Style Variables
+brand_color: "#FFA500"
