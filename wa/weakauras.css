@@ -1,5 +1,5 @@
 .bg {
-  background: linear-gradient(180deg, rgba(213,143,17,1), rgba(223,88,12,1), rgba(0,0,0,1) 96%);
+  background: linear-gradient(180deg, rgba(122,121,121,1) 0%, rgba(61,61,61,1) 29%, rgba(0,0,0,1) 92%);
   background-repeat: no-repeat;
   background-position: center;
   position: fixed;
@@ -15,6 +15,7 @@ html {
 }
 body {
   margin: 0;
+  font-family: "Georgia", serif;
 }
 h1 {
   color: #ffbc00;
