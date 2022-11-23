@@ -1,10 +1,20 @@
 body {
   background: rgb(213,67,17);
-  background: linear-gradient(90deg, rgba(213,67,17,1) 0%, rgba(223,88,12,1) 26%, rgba(0,0,0,1) 96%);
+  background: linear-gradient(180deg, rgba(213,67,17,1) 0%, rgba(223,88,12,1) 26%, rgba(0,0,0,1) 96%);
 }
 h1 {
-  color: white;
+  color: orange;
 }
 h2 {
-  color: orange;
+  color: white;
+}
+.titleColor {
+  color: black;
+}
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
