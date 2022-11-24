@@ -1,13 +1,16 @@
 h1 {
   color: #ffbc00;
   text-shadow: 4px 1px 6px black;
+  text-align: center;
 }
 h2 {
   color: white;
   text-shadow: 4px 1px 6px black;
+  text-align: center;
 }
 .titleColor {
   color: black;
   text-shadow: 0.5px 0.5px 6px black;
   font-size: xxx-large;
+  text-align: center;
 }
