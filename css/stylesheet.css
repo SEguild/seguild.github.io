@@ -1,21 +1,38 @@
-.bg {
-    background: linear-gradient(180deg, rgba(122, 121, 121, 1) 0%, rgba(61, 61, 61, 1) 29%, rgba(15, 15, 15, 1) 100%);
-    background-repeat: no-repeat;
-    background-position: center;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-}
-.content {
-    position: relative;
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
 }
 html {
     height: 100%;
     margin: 0;
 }
-body {
-    margin: 0;
-    font-family: "Georgia", serif;
+.bg {
+  background: linear-gradient(180deg, rgba(122, 121, 121, 1) 0%, rgba(61, 61, 61, 1) 29%, rgba(15, 15, 15, 1) 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+.centerItem {
+  align-self: center;
+}
+.content {
+  position: relative;
+}
+.extension {
+  height: 50vh;
+}
+.flexContainerColumn {
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: space-around;
+  gap: 0.3rem;
 }
 .flexContainerRow {
     display: flex;
@@ -24,22 +41,5 @@ body {
     justify-content: space-evenly;
     align-items: stretch;
     align-content: space-around;
-    gap: 2rem;
-}
-.flexContainerColumn {
-    margin-left: 15%;
-    margin-right: 15%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: stretch;
-    align-content: space-around;
     gap: 1rem;
-}
-.centerItem {
-    align-self: center;
-}
-.extension {
-    height: 50vh;
 }
