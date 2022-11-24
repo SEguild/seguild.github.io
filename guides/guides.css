@@ -1,10 +1,29 @@
 h1 {
-    color: orange;
-  }
-  h2 {
-    color: white;
-  }
-  .titleColor {
-    color: black;
-  }
-  
+  color: orange;
+}
+h2 {
+  color: white;
+}
+.titleColor {
+  color: black;
+}
+a:link {
+  color: palegreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: darkviolet;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: darkorange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
