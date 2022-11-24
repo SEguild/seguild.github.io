@@ -12,7 +12,7 @@
   width: 100vw;
 }
 .content {
-  position: absolute;
+  position: relative;
 }
 html {
   height: 100%;
