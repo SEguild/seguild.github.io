@@ -34,6 +34,7 @@ h2 {
     display: inline;
     padding: 4px 16px;
     min-width: 130px;
+    min-height: 90%;
     cursor: pointer;
     background-color: #000;
     color: rgba(255, 255, 255, 0.87);
