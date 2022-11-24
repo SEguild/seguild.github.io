@@ -1,29 +1,29 @@
 h1 {
-  color: orange;
+    color: orange;
 }
 h2 {
-  color: white;
+    color: white;
 }
 .titleColor {
-  color: black;
+    color: black;
 }
 a:link {
-  color: palegreen;
-  background-color: transparent;
-  text-decoration: none;
+    color: palegreen;
+    background-color: transparent;
+    text-decoration: none;
 }
 a:visited {
-  color: palegreen;
-  background-color: transparent;
-  text-decoration: none;
+    color: palegreen;
+    background-color: transparent;
+    text-decoration: none;
 }
 a:hover {
-  color: darkorange;
-  background-color: transparent;
-  text-decoration: underline;
+    color: darkorange;
+    background-color: transparent;
+    text-decoration: underline;
 }
 a:active {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
 }
