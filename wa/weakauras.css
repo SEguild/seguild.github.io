@@ -1,9 +1,13 @@
 h1 {
-  color: orange;
+  color: #ffbc00;
+  text-shadow: 4px 1px 6px black;
 }
 h2 {
   color: white;
+  text-shadow: 4px 1px 6px black;
 }
 .titleColor {
   color: black;
+  text-shadow: 0.5px 0.5px 6px black;
+  font-size: xxx-large;
 }
