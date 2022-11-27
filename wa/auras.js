@@ -1,8 +1,6 @@
 function copyWeakAuraImportString(id){
-    var copyText = weakAura[id].code
-    copyText.select();
-    copyText.setSelectionRange(0, 99999);
-    navigator.clipboard.writeText(copyText.value);
+    var importString = weakAura[id].code
+    navigator.clipboard.writeText(importString);
 }
 
 var weakAura = weakAura || {};
