@@ -47,6 +47,11 @@ html {
 .large {
     font-size: large;
 }
+.icon {
+  border-radius: 6px;
+  width: 57px;
+  height: 57px
+}
 .titleColor {
     color: black;
     text-shadow: 0.5px 0.5px 6px black;
