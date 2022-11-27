@@ -24,6 +24,9 @@ h1 {
 h2 {
     color: white;
 }
+.bigGap {
+    gap: 2rem;
+}
 .titleColor {
     color: black;
 }
