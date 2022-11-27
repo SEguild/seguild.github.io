@@ -25,10 +25,11 @@ h2 {
     color: white;
 }
 .bigGap {
-    gap: 2rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
 }
 .hasTitle {
-    margin-top: -1rem;
+    margin-top: -1.5rem;
 }
 .titleColor {
     color: black;
