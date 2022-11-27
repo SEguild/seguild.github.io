@@ -30,19 +30,19 @@ html {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-around;
     gap: 0.3rem;
 }
 .flexContainerRow {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: stretch;
-    align-content: space-around;
-    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1.5rem;
 }
 .large {
     font-size: large;
