@@ -11,12 +11,6 @@ h2 {
     text-align: center;
     margin-bottom: 5px;
 }
-.titleColor {
-    color: black;
-    text-shadow: 0.5px 0.5px 6px black;
-    font-size: xxx-large;
-    text-align: center;
-}
 .wago a {
     display: inline;
     padding: 0 2px;
