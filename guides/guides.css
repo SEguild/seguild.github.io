@@ -27,6 +27,9 @@ h2 {
 .bigGap {
     gap: 2rem;
 }
+.hasTitle {
+    margin-top: -1rem;
+}
 .titleColor {
     color: black;
 }
