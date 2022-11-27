@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Georgia", serif;
+  background-color: rgba(122, 121, 121, 1);
 }
 html {
     height: 100%;
