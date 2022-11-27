@@ -5,6 +5,8 @@ function copyWeakAuraImportString(id){
     navigator.clipboard.writeText(copyText.value);
 }
 
+var weakAura = weakAura || {};
+
 weakAura["4Pao4uRwe"] = {
     "name": "Vault of the Incarnates (wago.io/dfraid1)",
 	"id": "4Pao4uRwe",
