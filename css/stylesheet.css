@@ -48,9 +48,9 @@ html {
     font-size: large;
 }
 .icon {
-  border-radius: 6px;
-  width: 57px;
-  height: 57px
+    border-radius: 6px;
+    width: 57px;
+    height: 57px;
 }
 .titleColor {
     color: black;
