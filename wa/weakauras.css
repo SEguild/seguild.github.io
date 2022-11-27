@@ -21,7 +21,7 @@ h2 {
     display: inline;
     padding: 4px 16px;
     min-width: 130px;
-    min-height: 3.13rem;
+    min-height: 3.5rem;
     cursor: pointer;
     background-color: #000;
     color: rgba(255, 255, 255, 0.87);
@@ -43,8 +43,6 @@ h2 {
     display: inline;
     padding: 0;
     margin: 0;
-    border: 0;
-    height: 50px;
 }
 .wago .wagoName {
     display: block;
