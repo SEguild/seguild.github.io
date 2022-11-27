@@ -5,6 +5,12 @@ function copyWeakAuraImportString(id){
 
 var weakAura = weakAura || {};
 
+weakAura["###TBA###"] = {
+    "name": "Not Yet Implemented",
+	"id": "###TBA###",
+	"code": "Not yet implemented. Check back later."
+};
+
 weakAura["4Pao4uRwe"] = {
     "name": "Vault of the Incarnates (wago.io/dfraid1)",
 	"id": "4Pao4uRwe",
