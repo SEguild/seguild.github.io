@@ -75,3 +75,6 @@ h2 {
     gap: 24px;
     flex-wrap: wrap;
 }
+.isWF {
+    color: darkred !important;
+}
