@@ -37,6 +37,7 @@ h2 {
     border: 1px solid rgb(30, 30, 30);
     background: rgb(15 15 15);
     box-sizing: border-box;
+    min-width: 10rem;
 }
 .bossImage {
     position: absolute;
@@ -65,7 +66,8 @@ h2 {
 }
 .fixBg {
     position: fixed !important;
-    background-position: 0 100% !important;
+    background-position: 0 50% !important;
+    height: 100% !important;
 }
 .hasTitle {
     margin-top: -1.5rem;
