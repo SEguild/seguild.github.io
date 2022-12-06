@@ -64,6 +64,10 @@ h2 {
     width: 100%;
     text-align: center;
 }
+.bossNameTerros {
+    bottom: 0 !important;
+    top: 6px !important;
+}
 .fixBg {
     position: fixed !important;
     background-position: 0 50% !important;
