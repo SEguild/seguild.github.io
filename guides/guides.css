@@ -45,7 +45,7 @@ h2 {
     top: 0px;
     left: 0px;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 0 60%;
     z-index: 1;
 }
 .bossName {
@@ -60,6 +60,8 @@ h2 {
     line-height: 92%;
     text-shadow: 0 2px 2px rgb(0 0 0 / 80%);
     letter-spacing: 0.05em;
+    width: 100%;
+    text-align: center;
 }
 .fixBg {
     position: fixed !important;
