@@ -14,10 +14,10 @@ html {
     position: fixed;
     height: 100vh;
     width: 100vw;
-}
+    }
 .bgImage {
     position: absolute;
-    z-index: 1;
+    z-index: 0;
     top: 0;
     left: 0;
     width: 100%;
@@ -26,6 +26,9 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.3;
+    mask-image: "data:image/svg+xml,<svg width='100%25' height='100%25' viewBox='0 0 100 100' preserveAspectRatio='none' fill='none' xmlns='http://www.w3.org/2000/svg'><rect width='200%25' height='200%25' x='-100%25' y='-100%25' fill='url(%23rad)'/><defs><radialGradient id='rad'><stop offset='80%25'/><stop offset='100%25' stop-opacity='0'/></radialGradient></defs></svg>;";
+    -webkit-mask-image: "data:image/svg+xml,<svg width='100%25' height='100%25' viewBox='0 0 100 100' preserveAspectRatio='none' fill='none' xmlns='http://www.w3.org/2000/svg'><rect width='200%25' height='200%25' x='-100%25' y='-100%25' fill='url(%23rad)'/><defs><radialGradient id='rad'><stop offset='80%25'/><stop offset='100%25' stop-opacity='0'/></radialGradient></defs></svg>;";
+
 }
 .centerItem {
     align-self: center;
