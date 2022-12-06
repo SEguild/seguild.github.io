@@ -62,7 +62,7 @@ h2 {
     letter-spacing: 0.05em;
 }
 .fixBg {
-    position: fixed;
+    position: fixed !important;
 }
 .hasTitle {
     margin-top: -1.5rem;
