@@ -29,12 +29,12 @@ h2 {
     margin-right: -2rem;
 }
 .bossBorder {
-    width: 15%;
-    height: 250px;
+    width: 20%;
+    height: 170px;
     display: block;
     position: relative;
     border-radius: 4px;
-    border: 1px solid rgb(30, 30, 30);
+    /*border: 1px solid rgb(30, 30, 30);*/
     background: rgb(15 15 15);
     box-sizing: border-box;
 }
@@ -53,13 +53,13 @@ h2 {
     font-size: 2.4rem;
     opacity: 1;
     position: absolute;
-    left: 12px;
+    left: 0px;
     bottom: 6px;
     text-transform: uppercase;
     z-index: 3;
     line-height: 92%;
     text-shadow: 0 2px 2px rgb(0 0 0 / 80%);
-    letter-spacing: 0.4em;
+    letter-spacing: 0.1em;
 }
 .hasTitle {
     margin-top: -1.5rem;
