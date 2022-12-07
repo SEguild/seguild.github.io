@@ -13,10 +13,20 @@ a:link {
     background-color: transparent;
     text-decoration: none;
 }
+a:link:hover {
+    color: darkorange;
+    background-color: transparent;
+    text-decoration: underline;
+}
 a:visited {
     color: palegreen;
     background-color: transparent;
     text-decoration: none;
+}
+a:visited:hover {
+    color: darkorange;
+    background-color: transparent;
+    text-decoration: underline;
 }
 h1 {
     color: orange;
