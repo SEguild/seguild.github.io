@@ -13,7 +13,7 @@ var weakAura = weakAura || {};
 weakAura["###TBA###"] = {
 	"name": "Not Yet Implemented",
 	"id": "###TBA###",
-	"version": "N/A",
+	"version": "vN/A",
 	"code": "Not yet implemented. Check back later."
 };
 
