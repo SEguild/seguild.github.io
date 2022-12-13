@@ -2,6 +2,12 @@ body {
     margin: 0;
     font-family: "Georgia", serif;
     background-color: rgba(122, 121, 121, 1);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 html {
     height: 100%;
@@ -14,7 +20,7 @@ html {
     position: fixed;
     height: 100vh;
     width: 100vw;
-    }
+}
 .bgImage {
     position: absolute;
     z-index: 0;
