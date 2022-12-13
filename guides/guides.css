@@ -82,6 +82,11 @@ p {
     width: 100%;
     text-align: center;
 }
+.worldFirst {
+    bottom: 0px;
+    top: 6px;
+    color: red;
+}
 .bossNameTerros {
     bottom: 0 !important;
     top: 6px !important;
