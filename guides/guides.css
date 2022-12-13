@@ -2,31 +2,37 @@ a:active {
     color: red;
     background-color: transparent;
     text-decoration: underline;
+    transition: 0.3s;
 }
 a:hover {
     color: darkorange;
     background-color: transparent;
     text-decoration: underline;
+    transition: 0.3s;
 }
 a:link {
     color: palegreen;
     background-color: transparent;
     text-decoration: none;
+    transition: 0.3s;
 }
 a:link:hover {
     color: darkorange;
     background-color: transparent;
     text-decoration: underline;
+    transition: 0.3s;
 }
 a:visited {
     color: palegreen;
     background-color: transparent;
     text-decoration: none;
+    transition: 0.3s;
 }
 a:visited:hover {
     color: darkorange;
     background-color: transparent;
     text-decoration: underline;
+    transition: 0.3s;
 }
 h1 {
     color: orange;
@@ -162,7 +168,7 @@ p {
     justify-content: center;
     align-items: flex-start;
     align-content: center;
-    gap: 2.0rem;
+    gap: 2rem;
     line-height: 150%;
 }
 .talentSpecTitleName {
