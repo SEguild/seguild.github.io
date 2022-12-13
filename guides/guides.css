@@ -85,7 +85,6 @@ p {
     text-align: center;
 }
 .crestBorder {
-    width: 20%;
     height: 160px;
     display: block;
     position: relative;
@@ -101,7 +100,7 @@ p {
     top: 0px;
     left: 0px;
     background-size: cover;
-    background-position: 0 0%;
+    background-position: 0 50%;
     z-index: 1;
     background-color: transparent;
 }
@@ -145,4 +144,13 @@ p {
     align-items: flex-start;
     gap: 24px;
     flex-wrap: wrap;
+}
+.flexCrestContainerRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    gap: 0.5rem;
 }
