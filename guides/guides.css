@@ -53,7 +53,7 @@ p {
     box-sizing: border-box;
     min-width: 10rem;
 }
-.bossImage {
+.bossImage .crestImage {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -66,8 +66,9 @@ p {
 }
 .bossImage:hover {
     background-color: rgba(100, 40, 0, 0.5);
+    transition: 0.3ms;
 }
-.bossName {
+.bossName .crestName {
     font-weight: 700;
     font-size: 1.1rem;
     opacity: 1;
@@ -82,14 +83,26 @@ p {
     width: 100%;
     text-align: center;
 }
-.worldFirst {
+.crestBorder {
+    width: 20%;
+    height: 170px;
+    display: block;
+    position: relative;
+    border-radius: 4px;
+    border: 0px solid rgb(46 46 46 / 70%);
+    background: rgb(15 15 15);
+    box-sizing: border-box;
+    min-width: 10rem;
+}
+.worldFirstEU {
     bottom: 0px;
     top: 6px;
-    color: red;
+    color: dodgerblue;
 }
-.bossNameTerros {
-    bottom: 0 !important;
-    top: 6px !important;
+.worldFirstUS {
+    bottom: 0px;
+    top: 6px;
+    color: firebrick;
 }
 .fixBg {
     position: fixed !important;
@@ -106,7 +119,4 @@ p {
     align-items: flex-start;
     gap: 24px;
     flex-wrap: wrap;
-}
-.isWF {
-    color: darkred !important;
 }
