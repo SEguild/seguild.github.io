@@ -53,7 +53,7 @@ p {
     box-sizing: border-box;
     min-width: 10rem;
 }
-.bossImage .crestImage {
+.bossImage, .crestImage {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -68,7 +68,7 @@ p {
     background-color: rgba(100, 40, 0, 0.5);
     transition: 0.3ms;
 }
-.bossName .crestName {
+.bossName, .crestName {
     font-weight: 700;
     font-size: 1.1rem;
     opacity: 1;
