@@ -173,6 +173,6 @@ p {
     text-decoration: underline;
     z-index: 3;
     line-height: 92%;
-    text-shadow: 0 2px 2px rgb(0 0 0 / 80%);
+    text-shadow: 0 2px 5px rgb(0 0 0 / 80%);
     letter-spacing: 0.05em;
 }
