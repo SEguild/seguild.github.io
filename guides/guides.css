@@ -63,11 +63,11 @@ p {
     box-sizing: border-box;
     min-width: 10rem;
 }
-.bossBorder:hover > .worldFirstEU {
+.bossBorder:hover > .worldFirstAlliance {
     opacity: 0;
     transition: 0.3s;
 }
-.bossBorder:hover > .worldFirstUS {
+.bossBorder:hover > .worldFirstHorde {
     opacity: 0;
     transition: 0.3s;
 }
