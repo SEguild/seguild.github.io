@@ -167,11 +167,11 @@ p {
     top: 6px;
     transition: 0.3s;
 }
-.worldFirstEU {
-    color: dodgerblue;
+.worldFirstAlliance {
+    color: rgb(1, 99, 152);
 }
-.worldFirstUS {
-    color: #e90b0b;
+.worldFirstHorde {
+    color: rgb(199, 1, 0);
 }
 .fixBg {
     position: fixed !important;
