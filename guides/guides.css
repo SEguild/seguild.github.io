@@ -137,7 +137,7 @@ p {
     opacity: 1;
     position: absolute;
     left: 0px;
-    bottom: 6px;
+    bottom: 20%;
     text-transform: uppercase;
     z-index: 3;
     line-height: 92%;
