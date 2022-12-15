@@ -127,11 +127,19 @@ p {
     text-align: center;
 }
 .worldFirstEU {
+    opacity: 1;
+    position: absolute;
+    text-transform: uppercase;
+    z-index: 3;
+    line-height: 92%;
+    text-shadow: 0 2px 2px rgb(0 0 0 / 80%);
+    width: 100%;
+    text-align: center;
+    pointer-events: none;
+    left: 0px;
     bottom: 0px;
     top: 6px;
     color: dodgerblue;
-    transition: 0.3s;
-    pointer-events: none;
 }
 .worldFirstEU:hover {
     color: blue;
