@@ -60,11 +60,11 @@ p {
     min-width: 10rem;
 }
 .bossBorder:hover > .worldFirstEU {
-    opacity: 1;
+    opacity: 0;
     transition: 0.3s;
 }
 .bossBorder:hover > .worldFirstUS {
-    opacity: 1;
+    opacity: 0;
     transition: 0.3s;
 }
 .bossImage {
@@ -81,6 +81,18 @@ p {
 }
 .bossImage:hover {
     background-color: rgba(100, 40, 0, 0.5);
+    transition: 0.3ms;
+}
+.bossRoomImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: 100% 0;
+    z-index: 1;
+    background-color: rgb(46 46 46 / 15%);
     transition: 0.3ms;
 }
 .bossName {
@@ -137,7 +149,7 @@ p {
 .worldFirstEU {
     font-weight: 700;
     font-size: 1.1rem;
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     text-transform: uppercase;
     z-index: 3;
@@ -151,14 +163,10 @@ p {
     top: 6px;
     color: dodgerblue;
 }
-.worldFirstEU:hover {
-    color: blue;
-    transition: 0.3s;
-}
 .worldFirstUS {
     font-weight: 700;
     font-size: 1.1rem;
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     text-transform: uppercase;
     z-index: 3;
@@ -171,10 +179,6 @@ p {
     bottom: 0px;
     top: 6px;
     color: #e90b0b;
-}
-.worldFirstUS:hover {
-    color: red;
-    transition: 0.3s;
 }
 .fixBg {
     position: fixed !important;
