@@ -89,6 +89,7 @@ p {
     letter-spacing: 0.05em;
     width: 100%;
     text-align: center;
+    pointer-events: none;
 }
 .crestBorder {
     height: 160px;
@@ -130,6 +131,7 @@ p {
     top: 6px;
     color: dodgerblue;
     transition: 0.3s;
+    pointer-events: none;
 }
 .worldFirstEU:hover {
     color: blue;
@@ -140,6 +142,7 @@ p {
     top: 6px;
     color: #e90b0b;
     transition: 0.3s;
+    pointer-events: none;
 }
 .worldFirstUS:hover {
     color: red;
