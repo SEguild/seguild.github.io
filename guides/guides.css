@@ -129,11 +129,21 @@ p {
     bottom: 0px;
     top: 6px;
     color: dodgerblue;
+    transition: 0.3s;
+}
+.worldFirstEU:hover {
+    color: blue;
+    transition: 0.3s;
 }
 .worldFirstUS {
     bottom: 0px;
     top: 6px;
-    color: firebrick;
+    color: #e90b0b;
+    transition: 0.3s;
+}
+.worldFirstUS:hover {
+    color: red;
+    transition: 0.3s;
 }
 .fixBg {
     position: fixed !important;
