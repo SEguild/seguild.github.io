@@ -159,7 +159,7 @@ p {
     text-transform: uppercase;
     z-index: 3;
     line-height: 92%;
-    text-shadow: 1 1px 1px rgb(0 0 0);
+    text-shadow: 1px -1px 1px black;
     width: 100%;
     text-align: center;
     pointer-events: none;
