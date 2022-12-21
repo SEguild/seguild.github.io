@@ -221,3 +221,6 @@ p {
     text-shadow: 0 2px 5px rgb(0 0 0 / 80%);
     letter-spacing: 0.05em;
 }
+.talentList {
+    text-align: center;
+}
