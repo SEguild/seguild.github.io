@@ -166,7 +166,6 @@ p {
     left: 0px;
     bottom: 0px;
     top: 6px;
-    transition: 0.3s;
 }
 .worldFirstAlliance {
     color: rgb(1, 99, 152);
@@ -185,7 +184,7 @@ p {
 .flexBossContainerRow {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
     gap: 24px;
     flex-wrap: wrap;
