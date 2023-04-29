@@ -222,4 +222,5 @@ p {
 }
 .talentList {
     text-align: center;
+    min-width: 200px;
 }
