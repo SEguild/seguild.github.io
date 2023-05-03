@@ -14,7 +14,12 @@ html {
     margin: 0;
 }
 .bg {
-    background: linear-gradient(133deg, rgb(255 255 255 / 53%) 0%, rgb(54 54 54) 29%, rgb(16 16 16) 100%);
+    background: linear-gradient(
+        133deg,
+        rgb(255 255 255 / 53%) 0%,
+        rgb(54 54 54) 29%,
+        rgb(16 16 16) 100%
+    );
     background-repeat: no-repeat;
     background-position: center;
     position: fixed;
