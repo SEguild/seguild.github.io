@@ -1,4 +1,4 @@
-<h1 style="text-align-last: center">World of Warcraft (Retail) Links</h1>
+<h1 style="text-align-last: center">World of Warcraft DragonFlight Links</h1>
 <br/>
 --- [Weak Auras](/wa/weakauras.html)
 <br/>
