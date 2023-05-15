@@ -1,5 +1,7 @@
 --- [Discord](https://www.discord.gg/MV6PquD)
+<br/><br/>
 --- [WarcraftLogs](https://www.warcraftlogs.com/guild/id/20096)
+<br/><br/>
 --- [WowProgress](https://www.wowprogress.com/guild/eu/blackrock/Synergy+Effect)
 <br/><br/>
 
