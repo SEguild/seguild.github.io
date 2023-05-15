@@ -1,4 +1,6 @@
-[discord](https://www.discord.gg/MV6PquD) [warcraftlogs](https://www.warcraftlogs.com/guild/id/20096) [wowprogress](https://www.wowprogress.com/guild/eu/blackrock/Synergy+Effect)
+--- [Discord](https://www.discord.gg/MV6PquD)
+--- [WarcraftLogs](https://www.warcraftlogs.com/guild/id/20096)
+--- [WowProgress](https://www.wowprogress.com/guild/eu/blackrock/Synergy+Effect)
 <br/><br/>
 
 <h1 style="text-align-last: center">World of Warcraft</h1>
