@@ -11,7 +11,7 @@ aberrusSpan.onclick = function() {
 }
 
 window.onclick = function(event) {
-  if (event.target == modal) {
+  if (event.target == aberrusModal) {
     aberrusModal.style.display = "none";
   }
 }
