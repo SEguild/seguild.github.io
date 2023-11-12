@@ -12,12 +12,12 @@ const overlayMap = {
             "- [Intermission] End: Intermission ends when all roots are burned. Boss takes 100% more damage for 20s.<br/>",
         ],
         hc: [
-            "- [HC Changes]: Adds do not spawn automatically. Use Controlled Burn to activate them.<br/>",
-            "- [HC Changes]: [Intermission] - Players need to set themselves on fire (soak) to be able to burn the roots.<br/>",
+            "- [HC]: Adds do not spawn automatically. Use Controlled Burn to activate them.<br/>",
+            "- [HC]: [Intermission] - Players need to set themselves on fire (soak) to be able to burn the roots.<br/>",
         ],
         mythic: [
-            "- [Mythic Changes] Spawns two treants on each add wave. Spread & interrupt.<br/>",
-            "- [Mythic Changes] [Intermission] - More roots, missing [HC Changes] soak causes raidwide damage.<br/>",
+            "- [Mythic] Spawns two treants on each add wave. Spread & interrupt.<br/>",
+            "- [Mythic] [Intermission] - More roots, missing [HC] soaks causes raidwide damage.<br/>",
         ],
     },
     igira: {
