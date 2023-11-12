@@ -1,7 +1,5 @@
-let boss = "";
-
 const overlayMap = {
-    gnarlRoot: {
+    gnarlroot: {
         boss: "Boss: Gnarlroot <br/>",
         abilities: [
             "- Ability: Flaming Pestilence - Spawns lashers adds in AoE line.<br/>",
@@ -65,22 +63,21 @@ const overlayMap = {
     fyrakk: {
         boss: "Boss: Fyrakk <br/>",
         abilities: ["- Abilities: Unknown.<br/>"],
-        hc: ["- [HC Changes] Unknown.<br/>"],
-        mythic: ["- [Mythic Changes] Unknown.<br/>"],
+        hc: ["- [HC] Unknown.<br/>"],
+        mythic: ["- [Mythic] Unknown.<br/>"],
     },
 };
 
-function openOverlay(param) {
-    boss = param;
+function openOverlay(boss) {
     document.getElementById("abilityOverlay").style.display = "block";
     document.getElementById("bossAbilities").innerHTML =
-        overlayMap[param].boss +
+        overlayMap[boss].boss +
         "<br/>" +
-        overlayMap[param].abilities.reduce((acc, cur) => acc + cur, "") +
+        overlayMap[boss].abilities.reduce((acc, cur) => acc + cur, "") +
         "<br/>" +
-        overlayMap[param].hc.reduce((acc, cur) => acc + cur, "") +
+        overlayMap[boss].hc.reduce((acc, cur) => acc + cur, "") +
         "<br/>" +
-        overlayMap[param].mythic.reduce((acc, cur) => acc + cur, "");
+        overlayMap[boss].mythic.reduce((acc, cur) => acc + cur, "");
 }
 
 function closeOverlay() {
