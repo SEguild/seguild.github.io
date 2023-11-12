@@ -63,6 +63,7 @@ p {
     box-sizing: border-box;
     min-width: 10rem;
     background-size: cover;
+    transition: 0.3s;
 }
 .bossBorder:hover > .worldFirstAlliance {
     opacity: 0;
