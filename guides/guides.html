@@ -5,8 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Synergy Effect Guides</title>
         <link rel="stylesheet" type="text/css" href="./guides.css" />
+        <link rel="stylesheet" type="text/css" href="./overlay.css" />
         <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" />
         <link rel="stylesheet" type="text/css" href="/css/classColors.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
     </head>
     <script>
         const whTooltips = {
@@ -17,6 +22,16 @@
     </script>
     <script src="https://wow.zamimg.com/js/tooltips.js"></script>
     <body>
+        <div
+            id="abilityOverlay"
+            class="abilityOverlay"
+            style="display: none"
+            onclick="closeOverlay()"
+        >
+            <div class="abilityOverlay-content">
+                <p id="bossAbilities"></p>
+            </div>
+        </div>
         <div id="bgImageID" class="bgImage fixBg"></div>
         <div class="content">
             <div class="seHeader">
@@ -45,161 +60,237 @@
                 </h3>
                 <h2 class="centerItem">Mythic Trap Guides</h2>
                 <div class="flexBossContainerRow">
-                    <a
-                        class="bossBorder"
-                        href="https://www.mythictrap.com/amirdrassil/gnarlroot"
-                        target="_blank"
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 100%;
+                            background-image: url('/img/amirdrassil/BossRoom/gnarlroot-bossRoom.jpg');
+                        "
                     >
-                        <div
-                            class="bossRoomImage"
-                            style="
-                                background-position: 100%;
-                                background-image: url('/img/amirdrassil/BossRoom/gnarlroot-bossRoom.jpg');
-                            "
-                        ></div>
-                        <div class="bossName">Gnarlroot</div>
-                        <div class="worldFirstHorde worldFirst" hidden>
-                            WorldFirst: &lt;The Early Shift&gt; (US)
+                        <div>
+                            <span
+                                onclick="openOverlay('gnarlRoot')"
+                                class="fa fa-info-circle abilityInfo"
+                            >
+                                Abilities
+                            </span>
                         </div>
-                    </a>
-                    <a
-                        class="bossBorder"
-                        href="https://www.mythictrap.com/amirdrassil/igira"
-                        target="_blank"
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/gnarlroot"
+                            target="_blank"
+                        >
+                            <div class="bossName">Gnarlroot</div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst: &lt;The Early Shift&gt; (US)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 50%;
+                            background-image: url('/img/amirdrassil/BossOverview/Igira.png');
+                        "
                     >
-                        <div
-                            class="bossRoomImage"
-                            style="
-                                background-position: 50%;
-                                background-image: url('/img/amirdrassil/BossOverview/Igira.png');
-                            "
-                        ></div>
-                        <div class="bossName">Igira the Cruel</div>
-                        <div class="worldFirstHorde worldFirst" hidden>
-                            WorldFirst: &lt;Nerd Crew&gt; (US)
+                        <div>
+                            <span
+                                onclick="openOverlay('igira')"
+                                class="fa fa-info-circle abilityInfo"
+                            >
+                                Abilities
+                            </span>
                         </div>
-                    </a>
-                    <a
-                        class="bossBorder"
-                        href="https://www.mythictrap.com/en/amirdrassil/volcoross"
-                        target="_blank"
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/igira"
+                            target="_blank"
+                        >
+                            <div class="bossName">Igira the Cruel</div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst: &lt;Nerd Crew&gt; (US)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 100%;
+                            background-image: url('/img/amirdrassil/BossRoom/volcoross-bossRoom.jpg');
+                        "
                     >
-                        <div
-                            class="bossRoomImage"
-                            style="
-                                background-position: 100%;
-                                background-image: url('/img/amirdrassil/BossRoom/volcoross-bossRoom.jpg');
-                            "
-                        ></div>
-                        <div class="bossName">Volcoross</div>
-                        <div class="worldFirstHorde worldFirst" hidden>
-                            WorldFirst: &lt;Nerd Crew&gt; (US)
+                        <div>
+                            <span
+                                onclick="openOverlay('volcoross')"
+                                class="fa fa-info-circle abilityInfo"
+                            >
+                                Abilities
+                            </span>
                         </div>
-                    </a>
-                    <a
-                        class="bossBorder"
-                        href="https://www.mythictrap.com/en/amirdrassil/council-of-dreams"
-                        target="_blank"
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/volcoross"
+                            target="_blank"
+                        >
+                            <div class="bossName">Volcoross</div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst: &lt;Nerd Crew&gt; (US)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 85%;
+                            background-image: url('/img/amirdrassil/BossRoom/council-of-dreams-bossRoom.jpg');
+                        "
                     >
-                        <div
-                            class="bossRoomImage"
-                            style="
-                                background-position: 85%;
-                                background-image: url('/img/amirdrassil/BossRoom/council-of-dreams-bossRoom.jpg');
-                            "
-                        ></div>
-                        <div class="bossName">Council of Dreams</div>
-                        <div class="worldFirstHorde worldFirst" hidden>
-                            WorldFirst: &lt;FatSharkYes&gt; (EU)
+                        <div>
+                            <span
+                                onclick="openOverlay('councilOfDreams')"
+                                class="fa fa-info-circle abilityInfo"
+                            >
+                                Abilities
+                            </span>
                         </div>
-                    </a>
-                    <a
-                        class="bossBorder"
-                        href="https://www.mythictrap.com/en/amirdrassil/larodar"
-                        target="_blank"
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/council-of-dreams"
+                            target="_blank"
+                        >
+                            <div class="bossName">Council of Dreams</div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst: &lt;FatSharkYes&gt; (EU)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 100%;
+                            background-image: url('/img/amirdrassil/BossRoom/larodar-bossRoom.jpg');
+                        "
                     >
-                        <div
-                            class="bossRoomImage"
-                            style="
-                                background-position: 100%;
-                                background-image: url('/img/amirdrassil/BossRoom/larodar-bossRoom.jpg');
-                            "
-                        ></div>
-                        <div class="bossName">Larodar, Keeper of the Flame</div>
-                        <div class="worldFirstHorde worldFirst" hidden>
-                            WorldFirst: &lt;Liquid&gt; (US)
+                        <div>
+                            <span
+                                onclick="openOverlay('larodar')"
+                                class="fa fa-info-circle abilityInfo"
+                            >
+                                Abilities
+                            </span>
                         </div>
-                    </a>
-                    <a
-                        class="bossBorder"
-                        href="https://www.mythictrap.com/en/amirdrassil/nymue"
-                        target="_blank"
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/larodar"
+                            target="_blank"
+                        >
+                            <div class="bossName">
+                                Larodar, Keeper of the Flame
+                            </div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst: &lt;Liquid&gt; (US)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 100%;
+                            background-image: url('/img/amirdrassil/BossRoom/nymue-bossRoom.jpg');
+                        "
                     >
-                        <div
-                            class="bossRoomImage"
-                            style="
-                                background-position: 100%;
-                                background-image: url('/img/amirdrassil/BossRoom/nymue-bossRoom.jpg');
-                            "
-                        ></div>
-                        <div class="bossName">Nymue, Weaver of the Cycle</div>
-                        <div class="worldFirstHorde worldFirst" hidden>
-                            WorldFirst: &lt;Liquid&gt; (US)
+                        <div>
+                            <span
+                                onclick="openOverlay('nymue')"
+                                class="fa fa-info-circle abilityInfo"
+                            >
+                                Abilities
+                            </span>
                         </div>
-                    </a>
-                    <a
-                        class="bossBorder"
-                        href="https://www.mythictrap.com/en/amirdrassil/smolderon"
-                        target="_blank"
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/nymue"
+                            target="_blank"
+                        >
+                            <div class="bossName">
+                                Nymue, Weaver of the Cycle
+                            </div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst: &lt;Liquid&gt; (US)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 100%;
+                            background-image: url('/img/amirdrassil/BossRoom/smolderon-bossRoom.jpg');
+                        "
                     >
-                        <div
-                            class="bossRoomImage"
-                            style="
-                                background-position: 100%;
-                                background-image: url('/img/amirdrassil/BossRoom/smolderon-bossRoom.jpg');
-                            "
-                        ></div>
-                        <div class="bossName">Smolderon</div>
-                        <div class="worldFirstHorde worldFirst" hidden>
-                            WorldFirst: &lt;Liquid&gt; (US)
+                        <div>
+                            <span
+                                onclick="openOverlay('smolderon')"
+                                class="fa fa-info-circle abilityInfo"
+                            >
+                                Abilities
+                            </span>
                         </div>
-                    </a>
-                    <a
-                        class="bossBorder"
-                        href="https://www.mythictrap.com/en/amirdrassil/tindral-sageswift"
-                        target="_blank"
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/smolderon"
+                            target="_blank"
+                        >
+                            <div class="bossName">Smolderon</div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst: &lt;Liquid&gt; (US)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 100%;
+                            background-image: url('/img/amirdrassil/BossRoom/tindral-sageswift-bossRoom.jpg');
+                        "
                     >
-                        <div
-                            class="bossRoomImage"
-                            style="
-                                background-position: 85%;
-                                background-image: url('/img/amirdrassil/BossRoom/tindral-sageswift-bossRoom.jpg');
-                            "
-                        ></div>
-                        <div class="bossName">
-                            Tindral Sageswift, Seer of the Flame
+                        <div>
+                            <span
+                                onclick="openOverlay('tindral')"
+                                class="fa fa-info-circle abilityInfo"
+                            >
+                                Abilities
+                            </span>
                         </div>
-                        <div class="worldFirstHorde worldFirst" hidden>
-                            WorldFirst: &lt;Liquid&gt; (US)
-                        </div>
-                    </a>
-                    <a
-                        class="bossBorder"
-                        href="https://www.mythictrap.com/en/amirdrassil/fyrakk"
-                        target="_blank"
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/tindral-sageswift"
+                            target="_blank"
+                        >
+                            <div class="bossName">
+                                Tindral Sageswift, Seer of the Flame
+                            </div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst: &lt;Liquid&gt; (US)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 50%;
+                            background-image: url('/img/amirdrassil/BossOverview/Fyrakk.png');
+                        "
                     >
-                        <div
-                            class="bossRoomImage"
-                            style="
-                                background-position: 50%;
-                                background-image: url('/img/amirdrassil/BossOverview/Fyrakk.png');
-                            "
-                        ></div>
-                        <div class="bossName">Fyrakk the Blazing</div>
-                        <div class="worldFirstHorde worldFirst" hidden>
-                            WorldFirst: &lt;Liquid&gt; (US)
+                        <div>
+                            <span
+                                onclick="openOverlay('fyrakk')"
+                                class="fa fa-info-circle abilityInfo"
+                            >
+                                Abilities
+                            </span>
                         </div>
-                    </a>
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/fyrakk"
+                            target="_blank"
+                        >
+                            <div class="bossName">Fyrakk the Blazing</div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst: &lt;Liquid&gt; (US)
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <br />
                 <h3 class="centerItem mobile">
@@ -1546,4 +1637,5 @@
     <script src="./vaultModal.js"></script>
     <script src="./timer.js"></script>
     <script src="./randomBG.js"></script>
+    <script src="./overlay.js"></script>
 </html>
