@@ -21,7 +21,7 @@ const overlayMap = {
     igira: {
         boss: "Boss: Igira <br/><br/>",
         abilities: [
-            "- Ability: Blistering Spear - Random player are marked and chained to a weapon - destroy chained weapons.<br/>",
+            "- [Individual] Ability: Blistering Spear - Random player are marked and chained to a weapon with AoE void - destroy chains.<br/>",
             "- [Intermission] Start at 100 energy: [Healer] High raidwide damage. Soak a weapon (free choice of order) to start next phase. Boss gets abilities depending on soaked weapon.<br/>",
             "- [Tank] Always stack ontop of each other (dual hits).<br/>",
             "- [Weapon - Axe] 1 Tank + 50% Raid. Stack with tankhit. Everyone can only be hit once.<br/>",
