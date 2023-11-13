@@ -41,7 +41,7 @@ const overlayMap = {
     volcoross: {
         boss: "Boss: Volcoross <br/>",
         abilities: [
-            "- Split raid 50/50. One group moves clockwise, the other counter-clockwise.<br/>",
+            "- Split raid in 2 groups. One group moves clockwise, the other counter-clockwise.<br/>",
             "- [Individual] Ability: Coiling Flames - marks players: move out with AoE circle around them. Circle shrinks and deals increasing damage. Jumps to a new player on expiration.<br/>",
             "- At 100 energy: soak two circles (each group one)<br/>",
             "- [Healer] High raidwide damage after each soak and start of fight for ~5s.<br/>",
