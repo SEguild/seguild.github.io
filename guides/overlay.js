@@ -19,7 +19,7 @@ const overlayMap = {
         ],
     },
     igira: {
-        boss: "Boss: Igira <br/><br/>",
+        boss: "Boss: Igira <br/>",
         abilities: [
             "- [Individual] Ability: Blistering Spear - Random player are marked and chained to a weapon with AoE void - destroy chains.<br/>",
             "- [Intermission] Start at 100 energy: [Healer] High raidwide damage. Soak a weapon (free choice of order) to start next phase. Boss gets abilities depending on soaked weapon.<br/>",
@@ -39,7 +39,7 @@ const overlayMap = {
         ],
     },
     volcoross: {
-        boss: "Boss: Volcoross <br/><br/>",
+        boss: "Boss: Volcoross <br/>",
         abilities: [
             "- Split raid 50/50. One group moves clockwise, the other counter-clockwise.<br/>",
             "- [Individual] Ability: Coiling Flames - marks players: move out with AoE circle around them. Circle shrinks and deals increasing damage. Jumps to a new player on expiration.<br/>",
@@ -58,7 +58,7 @@ const overlayMap = {
         ],
     },
     councilOfDreams: {
-        boss: "Boss: Council of Dreams <br/><br/>",
+        boss: "Boss: Council of Dreams <br/>",
         abilities: [
             "- [Council] 3 Bosses, need to die at the same time.<br/>",
             "- [Tank] Only Urctos is tankable.<br/>",
@@ -82,7 +82,7 @@ const overlayMap = {
         ],
     },
     larodar: {
-        boss: "Boss: Larodar, Keeper of the Flame <br/><br/>",
+        boss: "Boss: Larodar, Keeper of the Flame <br/>",
         abilities: [
             "- 2 phases.<br/>",
             "- [P1] Kill adds, then heal them up.<br/>",
@@ -94,7 +94,7 @@ const overlayMap = {
         mythic: ["- [Mythic]"],
     },
     nymue: {
-        boss: "Boss: Nymue, Weaver of the Cycle <br/><br/>",
+        boss: "Boss: Nymue, Weaver of the Cycle <br/>",
         abilities: [
             "- 2 phases.<br/>",
             "- [P1] Only boss.<br/>",
@@ -104,7 +104,7 @@ const overlayMap = {
         mythic: ["- [Mythic]"],
     },
     smolderon: {
-        boss: "Boss: Smolderon <br/><br/>",
+        boss: "Boss: Smolderon <br/>",
         abilities: [
             "- Pure single target, one phase with intermissions.<br/>",
             "- Raid is randomly split in 2 groups. Groups are reversed after each mechanic.<br/>",
@@ -114,7 +114,7 @@ const overlayMap = {
         mythic: ["- [Mythic]"],
     },
     tindral: {
-        boss: "Boss: Tindral Sageswift, Seer of the Flame <br/><br/>",
+        boss: "Boss: Tindral Sageswift, Seer of the Flame <br/>",
         abilities: [
             "- 3 phases.<br/>",
             "- [P1] Moonkin abilities.<br/>",
