@@ -10,8 +10,8 @@ const overlayMap = {
             "- [Intermission] End: Intermission ends when all roots are burned. Boss takes 100% more damage for 20s.<br/>",
         ],
         hc: [
-            "- [HC]: Adds do not spawn automatically. Use Controlled Burn to activate them.<br/>",
-            "- [HC]: [Intermission] - Players need to set themselves on fire (soak) to be able to burn the roots.<br/>",
+            "- [HC] Adds do not spawn automatically. Use Controlled Burn to activate them.<br/>",
+            "- [HC] [Intermission] - Players need to set themselves on fire (soak) to be able to burn the roots.<br/>",
         ],
         mythic: [
             "- [Mythic] Spawns two treants on each add wave. Spread & interrupt.<br/>",
@@ -20,9 +20,23 @@ const overlayMap = {
     },
     igira: {
         boss: "Boss: Igira <br/><br/>",
-        abilities: [],
-        hc: [],
-        mythic: [],
+        abilities: [
+            "- Ability: Blistering Spear - Random player are marked and chained to a weapon - destroy chained weapons.<br/>",
+            "- [Intermission] Start at 100 energy: [Healer] High raidwide damage. Soak a weapon (free choice of order) to start next phase. Boss gets abilities depending on soaked weapon.<br/>",
+            "- [Tank] Always stack ontop of each other (dual hits).<br/>",
+            "- [Weapon - Axe] 1 Tank + 50% Raid. Stack with tankhit. Everyone can only be hit once.<br/>",
+            "- [Weapon - Sword] Jumps at second farthest player. Dodge.<br/>",
+            "- [Weapon - Dagger] [Healer] Healing absorb on many players. Healed to full explode in small AoE damage -> spread. Fail to heal: Raidwide damage.<br/>",
+        ],
+        hc: [
+            "- [HC] [Weapon - Sword] Also creates lines of explosions to dodge.<br/>",
+            "- [HC] [Weapon - Dagger] Heal absorb healed to full create orbs to dodge.<br/>",
+            "- [HC] [Intermission] Soaking a weapon creates permanent debuff: 100% more damage taken by soaking a weapon.<br/>",
+        ],
+        mythic: [
+            "- [Mythic] Boss equips two weapons at once.<br/>",
+            "- [Mythic] Weapon that are not soaked are equipped.<br/>",
+        ],
     },
     volcoross: {
         boss: "Boss: Volcoross <br/><br/>",
