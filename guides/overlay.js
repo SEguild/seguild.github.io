@@ -40,9 +40,22 @@ const overlayMap = {
     },
     volcoross: {
         boss: "Boss: Volcoross <br/><br/>",
-        abilities: [],
-        hc: [],
-        mythic: [],
+        abilities: [
+            "- Split raid 50/50. One group moves clockwise, the other counter-clockwise.<br/>",
+            "- [Individual] Ability: Coiling Flames - marks players: move out with AoE circle around them. Circle shrinks and deals increasing damage. Jumps to a new player on expiration.<br/>",
+            "- At 100 energy: soak two circles (each group one)<br/>",
+            "- [Healer] High raidwide damage after each soak and start of fight for ~5s.<br/>",
+            "- [Tank] Ability: Cataclysm Jaws - Stacking debuff.<br/>",
+            "- [AoE Oneshot] Ability: Scorchtail Crash - Tailstrike (shadow on the ground) oneshots.<br/>",
+            "- [SOFT ENRAGE] When platform is completely filled with lava -> damage race.<br/>",
+        ],
+        hc: [
+            "- [HC] Ability: Scorchtail Crash: Additonally creates lava waves on crash.<br/>",
+        ],
+        mythic: [
+            "- [Mythic] Additionally split each group into groups of 5 to soak the Ability: Coiling Flame explosions.<br/>",
+            "- [Mythic] Ability: Coiling Flames: On expiration players explode in soakable damage. Always targets 1 melee and 1 range in each group.<br/>",
+        ],
     },
     councilOfDreams: {
         boss: "Boss: Council of Dreams <br/><br/>",
