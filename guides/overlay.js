@@ -59,9 +59,27 @@ const overlayMap = {
     },
     councilOfDreams: {
         boss: "Boss: Council of Dreams <br/><br/>",
-        abilities: [],
-        hc: [],
-        mythic: [],
+        abilities: [
+            "- [Council] 3 Bosses, need to die at the same time.<br/>",
+            "- [Tank] Only Urctos is tankable.<br/>",
+            "- [Pip] [Healer] Ability: Emerald Winds - High raidwide damage and pushback.<br/>",
+            "- [Aerwynn] Random poison debuff (dispelable).<br/>",
+            "- [Urctos] [Tank] Ability: Agonizing Claws - Massive physical damage. Vulnerability debuff. Tankswap after hit.<br/>",
+            "- Every boss has an ultimate. Interruptable by a spell of another boss.<br/>",
+            "- [Ultimate - Urctos] Turn Urctos into a duck to stop his channel. A player in duckform has to un-duck next to him.<br/>",
+            "- [Ultimate - Aerwynn] Let Urctos charge into Aerwynn to stop the channel. Charge needs to be soaked by everyone.<br/>",
+            "- [Ultimate - Pip] Raidwide shield. Stand in a flower to remove the shield before the cast finishes.<br/>",
+        ],
+        hc: [
+            "- [HC] Urctos Charge: Vulnerability debuff. Players cannot soak twice in a row.<br/>",
+            "- [HC] [Tank] Urctos Tankhit: Now cleaves frontal.<br/>",
+            "- [HC] Polymorphed players turn other players into ducks on un-duck.<br/>",
+        ],
+        mythic: [
+            "- [Mythic] Always two ultimates at the same time, rotation: Urctos+Aerwynn, Aerwynn+Pip, Urctos+Pip<br/>",
+            "- [Mythic] [Individual] [Healer] Poison dispel deals massive damage to nearby players.<br/>",
+            "- [Mythic] [Ultimate - Pip] Additionally summons tornadoes to dodge.<br/>",
+        ],
     },
     larodar: {
         boss: "Boss: Larodar, Keeper of the Flame <br/><br/>",
