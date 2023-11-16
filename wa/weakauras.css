@@ -19,9 +19,11 @@ a:link:hover {
     text-decoration: underline;
     transition: 0.3s;
 }
-.bgMask {
-    mask-image: url("data:image/svg+xml,<svg width='145%25' height='125%25' viewBox='0 0 100 100' preserveAspectRatio='none' fill='none' xmlns='http://www.w3.org/2000/svg'><rect width='200%25' height='200%25' x='-100%25' y='-100%25' fill='url(%23rad)'/><defs><radialGradient id='rad'><stop offset='80%25'/><stop offset='100%25' stop-opacity='0'/></radialGradient></defs></svg>");
-    -webkit-mask-image: url("data:image/svg+xml,<svg width='145%25' height='125%25' viewBox='0 0 100 100' preserveAspectRatio='none' fill='none' xmlns='http://www.w3.org/2000/svg'><rect width='200%25' height='200%25' x='-100%25' y='-100%25' fill='url(%23rad)'/><defs><radialGradient id='rad'><stop offset='80%25'/><stop offset='100%25' stop-opacity='0'/></radialGradient></defs></svg>");
+@supports not (-moz-appearance: none) {
+    .bgMask {
+        mask-image: url("data:image/svg+xml,<svg width='145%25' height='125%25' viewBox='0 0 100 100' preserveAspectRatio='none' fill='none' xmlns='http://www.w3.org/2000/svg'><rect width='200%25' height='200%25' x='-100%25' y='-100%25' fill='url(%23rad)'/><defs><radialGradient id='rad'><stop offset='80%25'/><stop offset='100%25' stop-opacity='0'/></radialGradient></defs></svg>");
+        -webkit-mask-image: url("data:image/svg+xml,<svg width='145%25' height='125%25' viewBox='0 0 100 100' preserveAspectRatio='none' fill='none' xmlns='http://www.w3.org/2000/svg'><rect width='200%25' height='200%25' x='-100%25' y='-100%25' fill='url(%23rad)'/><defs><radialGradient id='rad'><stop offset='80%25'/><stop offset='100%25' stop-opacity='0'/></radialGradient></defs></svg>");
+    }
 }
 .wago a {
     display: inline;
