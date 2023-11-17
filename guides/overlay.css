@@ -32,8 +32,8 @@
     padding: 0.2rem;
 }
 
-@media screen and (max-height: 450px) {
-    .overlay a {
-        font-size: 20px;
+@media (max-width: 640px) {
+    .abilityOverlay-content {
+        font-size: 9px;
     }
 }
