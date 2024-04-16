@@ -4,11 +4,13 @@
 <br/><br/>
 --- [Guides](/guides/guides.html)
 <br/><br/><br/><br/><br/>
-<h1 style="text-align-last: center">World of Warcraft Classic: WotlK</h1>
-<!--<br/><br/>-->
-<!--- [Weak Auras](/wa/weakauras.html)-->
+<h1 style="text-align-last: center">World of Warcraft Remix: MoP</h1>
 <br/><br/>
---- [Guides](/classic/guides/guides.html)
+--- [Guides](/mopremix/guides/guides.html)
+<br/><br/><br/><br/><br/>
+<h1 style="text-align-last: center">World of Warcraft Classic: WotlK</h1>
+<br/><br/>
+--- [Guides](/classic/classic/guides/guides.html)
 <br/><br/><br/>
 <h1 style="text-align-last: center">Links</h1>
 <br/><br/>
