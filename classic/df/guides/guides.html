@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Synergy Effect Guides</title>
+        <link rel="stylesheet" type="text/css" href="./guides.css" />
+        <link rel="stylesheet" type="text/css" href="./overlay.css" />
+        <link rel="stylesheet" type="text/css" href="/css/stylesheet.css" />
+        <link rel="stylesheet" type="text/css" href="/css/classColors.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+    <script>
+        const whTooltips = {
+            colorLinks: true,
+            iconizeLinks: true,
+            renameLinks: false,
+        };
+    </script>
+    <script src="https://wow.zamimg.com/js/tooltips.js"></script>
+    <body>
+        <div
+            id="abilityOverlay"
+            class="abilityOverlay"
+            style="display: none"
+            onclick="closeOverlay()"
+        >
+            <div class="abilityOverlay-content">
+                <p id="bossAbilities"></p>
+            </div>
+        </div>
+        <div id="bgImageID" class="bgImage fixBg"></div>
+        <div class="content">
+            <div class="seHeader">
+                <a href="/" style="color: #ffc107">⌂ Synergy Effect</a>
+            </div>
+            <div class="flexContainerColumn">
+                <div class="centerItem">
+                    <h1 class="titleColor">
+                        <u>DRAGONFLIGHT</u>
+                        <br />
+                        <u>GUIDES</u>
+                    </h1>
+                </div>
+                <h1 class="centerItem"><u>RAIDS</u></h1>
+                <h2 class="centerItem">Amirdrassil, The Dream's Hope</h2>
+                <h2 id="timer" class="centerItem" hidden>
+                    Countdown to Amirdrassil Raid Release
+                </h2>
+                <h3 class="centerItem">
+                    <a
+                        href="https://www.wowhead.com/guide/raids/amirdrassil-the-dreams-hope/tier-sets"
+                        target="_blank"
+                    >
+                        Amirdrassil Tier Sets
+                    </a>
+                </h3>
+                <h2 class="centerItem">Mythic Trap Guides</h2>
+                <div class="flexBossContainerRow">
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 100%;
+                            background-image: url('/img/amirdrassil/BossRoom/gnarlroot-bossRoom.jpg');
+                        "
+                    >
+                        <div>
+                            <span
+                                onclick="openOverlay('gnarlroot')"
+                                class="fa fa-info-circle abilityInfo"
+                            ></span>
+                        </div>
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/gnarlroot"
+                            target="_blank"
+                        >
+                            <div class="bossName">Gnarlroot</div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst:
+                                <br />
+                                &lt;blue shoe&gt; (US)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 80%;
+                            background-image: url('/img/amirdrassil/BossRoom/igira-bossRoom.jpg');
+                        "
+                    >
+                        <div>
+                            <span
+                                onclick="openOverlay('igira')"
+                                class="fa fa-info-circle abilityInfo"
+                            ></span>
+                        </div>
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/igira"
+                            target="_blank"
+                        >
+                            <div class="bossName">Igira the Cruel</div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst:
+                                <br />
+                                &lt;Instant Dollars&gt; (US)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 100%;
+                            background-image: url('/img/amirdrassil/BossRoom/volcoross-bossRoom.jpg');
+                        "
+                    >
+                        <div>
+                            <span
+                                onclick="openOverlay('volcoross')"
+                                class="fa fa-info-circle abilityInfo"
+                            ></span>
+                        </div>
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/volcoross"
+                            target="_blank"
+                        >
+                            <div class="bossName">Volcoross</div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst:
+                                <br />
+                                &lt;Instant Dollars&gt; (US)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 85%;
+                            background-image: url('/img/amirdrassil/BossRoom/council-of-dreams-bossRoom.jpg');
+                        "
+                    >
+                        <div>
+                            <span
+                                onclick="openOverlay('councilOfDreams')"
+                                class="fa fa-info-circle abilityInfo"
+                            ></span>
+                        </div>
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/council-of-dreams"
+                            target="_blank"
+                        >
+                            <div class="bossName">Council of Dreams</div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst:
+                                <br />
+                                &lt;Instant Dollars&gt; (US)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 100%;
+                            background-image: url('/img/amirdrassil/BossRoom/larodar-bossRoom.jpg');
+                        "
+                    >
+                        <div>
+                            <span
+                                onclick="openOverlay('larodar')"
+                                class="fa fa-info-circle abilityInfo"
+                            ></span>
+                        </div>
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/larodar"
+                            target="_blank"
+                        >
+                            <div class="bossName">
+                                Larodar, Keeper of the Flame
+                            </div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst:
+                                <br />
+                                &lt;Instant Dollars&gt; (US)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 100%;
+                            background-image: url('/img/amirdrassil/BossRoom/nymue-bossRoom.jpg');
+                        "
+                    >
+                        <div>
+                            <span
+                                onclick="openOverlay('nymue')"
+                                class="fa fa-info-circle abilityInfo"
+                            ></span>
+                        </div>
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/nymue"
+                            target="_blank"
+                        >
+                            <div class="bossName">
+                                Nymue, Weaver of the Cycle
+                            </div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst:
+                                <br />
+                                &lt;Instant Dollars&gt; (US)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 100%;
+                            background-image: url('/img/amirdrassil/BossRoom/smolderon-bossRoom.jpg');
+                        "
+                    >
+                        <div>
+                            <span
+                                onclick="openOverlay('smolderon')"
+                                class="fa fa-info-circle abilityInfo"
+                            ></span>
+                        </div>
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/smolderon"
+                            target="_blank"
+                        >
+                            <div class="bossName">Smolderon</div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst:
+                                <br />
+                                &lt;Liquid&gt; (US)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 100%;
+                            background-image: url('/img/amirdrassil/BossRoom/tindral-sageswift-bossRoom.jpg');
+                        "
+                    >
+                        <div>
+                            <span
+                                onclick="openOverlay('tindral')"
+                                class="fa fa-info-circle abilityInfo"
+                            ></span>
+                        </div>
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/tindral-sageswift"
+                            target="_blank"
+                        >
+                            <div class="bossName">
+                                Tindral Sageswift, Seer of the Flame
+                            </div>
+                            <div class="worldFirstHorde worldFirst" hidden>
+                                WorldFirst:
+                                <br />
+                                &lt;Liquid&gt; (US)
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="bossScaler bossBorder"
+                        style="
+                            background-position: 50%;
+                            background-image: url('/img/amirdrassil/BossOverview/Fyrakk.png');
+                        "
+                    >
+                        <div>
+                            <span
+                                onclick="openOverlay('fyrakk')"
+                                class="fa fa-info-circle abilityInfo"
+                            ></span>
+                        </div>
+                        <a
+                            href="https://www.mythictrap.com/en/amirdrassil/fyrakk"
+                            target="_blank"
+                        >
+                            <div class="bossName">Fyrakk the Blazing</div>
+                            <div class="worldFirstHorde worldFirst">
+                                WorldFirst:
+                                <br />
+                                &lt;Echo&gt; (EU)
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <br />
+                <h3 class="centerItem mobile">
+                    <a
+                        href="/img/amirdrassil/Amirdrassil_BossOrder.png"
+                        target="_blank"
+                    >
+                        Boss Order
+                    </a>
+                </h3>
+                <button
+                    id="amirdrassilBossOrderButton"
+                    class="centerItem desktop"
+                    style="
+                        width: 7rem;
+                        height: 3rem;
+                        background-color: rgb(214, 118, 39);
+                        border-color: black;
+                        border-style: solid;
+                        margin-top: 20px;
+                        margin-bottom: 30px;
+                    "
+                >
+                    Amirdrassil Boss Order
+                </button>
+                <div id="amirdrassilModal" class="amirdrassilModal">
+                    <div class="amirdrassilModal-content">
+                        <span class="amirdrassilClose">&times;</span>
+                        <img
+                            class="centerItem"
+                            style="max-width: 100%; max-height: 100%"
+                            src="/img/amirdrassil/Amirdrassil_BossOrder.png"
+                        />
+                    </div>
+                </div>
+                <br />
+                <br />
+            </div>
+            <div class="flexCrestContainerColumn">
+                <h1 class="centerItem"><u>TALENTS</u></h1>
+                <h2 class="centerItem">Most used Talents</h2>
+                <div class="flexContainerRow large hasTitle">
+                    <div class="flexContainerRow">
+                        <p>
+                            <a
+                                href="https://raid.subcreation.net/amirdrassil-heroic.html"
+                                target="_blank"
+                            >
+                                Amirdrassil
+                            </a>
+                        </p>
+                    </div>
+                    <div class="flexContainerRow">
+                        <p>
+                            <a
+                                href="https://mplus.subcreation.net/"
+                                target="_blank"
+                            >
+                                M+
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="flexContainerRow" style="padding-bottom: 2rem">
+                    <div class="flexContainerRow">
+                        <p>
+                            <a
+                                href="https://raid.subcreation.net/aberrus-heroic.html"
+                                target="_blank"
+                            >
+                                Aberrus
+                            </a>
+                        </p>
+                    </div>
+                    <div class="flexContainerRow">
+                        <p>
+                            <a
+                                href="https://raid.subcreation.net/vault-heroic.html"
+                                target="_blank"
+                            >
+                                Vault of the Incarnates
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="flexCrestContainerRow hasTitle large">
+                    <a class="crestBorder">
+                        <div
+                            class="crestImage"
+                            style="
+                                background-image: url('/img/Crests/Death_Knight_Crest.webp');
+                            "
+                        ></div>
+                        <div class="dk crestName">Death Knight</div>
+                    </a>
+                    <p class="talentList">
+                        <a class="dk talentSpecTitleName">Blood</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/death-knight/blood/talent-builds-pve-tank#raid-talent-build"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/death-knight/blood/talent-builds-pve-tank#mythic-talent-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="dk talentSpecTitleName">Frost</a>
+                        <br />
+
+                        <a
+                            href="https://www.wowhead.com/guide/classes/death-knight/frost/talent-builds-pve-dps#raid-talent-build"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/death-knight/frost/talent-builds-pve-dps#mythic-talent-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="dk talentSpecTitleName">Unholy</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/death-knight/unholy/talent-builds-pve-dps#raid-talent-build"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/death-knight/unholy/talent-builds-pve-dps#mythic-talent-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                </div>
+                <div class="flexCrestContainerRow large">
+                    <a class="crestBorder">
+                        <div
+                            class="crestImage"
+                            style="
+                                background-image: url('/img/Crests/Demon_Hunter_Crest.webp');
+                            "
+                        ></div>
+                        <div class="dh crestName">Demon Hunter</div>
+                    </a>
+                    <p class="talentList">
+                        <a class="dh talentSpecTitleName">Havoc</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/demon-hunter/havoc/talent-builds-pve-dps#raid-talent-build"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/demon-hunter/havoc/talent-builds-pve-dps#mythic-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="dh talentSpecTitleName">Vengeance</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/demon-hunter/vengeance/talent-builds-pve-tank#raid-talent-build"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/demon-hunter/vengeance/talent-builds-pve-tank#mythic-talent-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                </div>
+                <div class="flexCrestContainerRow large">
+                    <a class="crestBorder">
+                        <div
+                            class="crestImage"
+                            style="
+                                background-image: url('/img/Crests/Druid_Crest.webp');
+                            "
+                        ></div>
+                        <div class="druid crestName">Druid</div>
+                    </a>
+                    <p class="talentList">
+                        <a class="druid talentSpecTitleName">Balance</a>
+                        <br />
+                        <a
+                            href="https://www.dreamgrove.gg/balance/compendium/#talents"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/talent-calc/druid/balance/DAQEFAUQcCQhUUUxVQQBBNUYlUUGYVVEFQQCUA"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="druid talentSpecTitleName">Feral</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/talent-calc/druid/feral/DAQEQFQTAkQhVEExhUQBBNUFAZhRVFVYVRBCBQ"
+                            target="_blank"
+                        >
+                            Raid (Pure ST)
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/talent-calc/druid/feral/DAQEQFQTAkQhVEExhUQBBOUVQVFRVFVYRUBQCBQ"
+                            target="_blank"
+                        >
+                            Raid (ST+Adds)
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/talent-calc/druid/feral/DAQEQFQTAkQhVEExhUQBBOUVQRFRVFVYRVBQCBU"
+                            target="_blank"
+                        >
+                            M+ (default)
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/talent-calc/druid/feral/DAQEQFQTAkQhVEExhUQBBOUVQRFRVFVYUURQCBQ"
+                            target="_blank"
+                        >
+                            M+ (Swarm)
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="druid talentSpecTitleName">Guardian</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/talent-calc/druid/guardian/DAPAREUTcCQhEUEwlBBAOVUQVIhQVkWARRQBE"
+                            target="_blank"
+                        >
+                            Raid (Damage)
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/talent-calc/druid/guardian/DAPAREUTcCQhEUEwlBBAOVUQVIhQVkWARRQBA"
+                            target="_blank"
+                        >
+                            Raid (Mix)
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/talent-calc/druid/guardian/DAPAREUTcCQhEUEwlBBAOVUURokQEkWARRQBA"
+                            target="_blank"
+                        >
+                            Raid (Survival)
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/talent-calc/druid/guardian/DAPAREQTcGQhUUExFBBBOVUURogQEkWARRQBA"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="druid talentSpecTitleName">Restoration</a>
+                        <br />
+                        <a
+                            href="https://questionablyepic.com/restodruid-sheet/#ert_pane1-0"
+                            taget="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://questionablyepic.com/restodruid-sheet/#ert_pane1-1"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                </div>
+                <div class="flexCrestContainerRow large">
+                    <a class="crestBorder">
+                        <div
+                            class="crestImage"
+                            style="
+                                background-image: url('/img/Crests/Evoker_Crest.webp');
+                            "
+                        ></div>
+                        <div class="evoker crestName">Evoker</div>
+                    </a>
+                    <p class="talentList">
+                        <a class="evoker talentSpecTitleName">Augmentation</a>
+                        <br />
+                        <a
+                            href="https://raid.subcreation.net/aberrus-augmentation-evoker-heroic.html"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://mplus.subcreation.net/augmentation-evoker.html"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="evoker talentSpecTitleName">Devastation</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/evoker/devastation/talent-builds-pve-dps#raid-talent-builds"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/evoker/devastation/talent-builds-pve-dps#mythic-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="evoker talentSpecTitleName">Preservation</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/evoker/preservation/talent-builds-pve-healer#raid-builds"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/evoker/preservation/talent-builds-pve-healer#mythic-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                </div>
+                <div class="flexCrestContainerRow large">
+                    <a class="crestBorder">
+                        <div
+                            class="crestImage"
+                            style="
+                                background-image: url('/img/Crests/Hunter_Crest.webp');
+                            "
+                        ></div>
+                        <div class="hunter crestName">Hunter</div>
+                    </a>
+                    <p class="talentList">
+                        <a class="hunter talentSpecTitleName">Beast Mastery</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/hunter/beast-mastery/talent-builds-pve-dps#raid-talent-build"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/hunter/beast-mastery/talent-builds-pve-dps#mythic-talent-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="hunter talentSpecTitleName">Marksmanship</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/hunter/marksmanship/talent-builds-pve-dps#raid-talent-build"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/hunter/marksmanship/talent-builds-pve-dps#mythic-talent-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="hunter talentSpecTitleName">Survival</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/hunter/survival/talent-builds-pve-dps#single-target-low-aoe-build"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/hunter/survival/talent-builds-pve-dps#mass-aoe-mythic-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                </div>
+                <div class="flexCrestContainerRow large">
+                    <a class="crestBorder">
+                        <div
+                            class="crestImage"
+                            style="
+                                background-image: url('/img/Crests/Mage_Crest.webp');
+                            "
+                        ></div>
+                        <div class="mage crestName">Mage</div>
+                    </a>
+                    <p class="talentList">
+                        <a class="mage talentSpecTitleName">Arcane</a>
+                        <br />
+                        <a
+                            href="https://www.mage-hub.com/arcane#3"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.mage-hub.com/arcane#3"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="mage talentSpecTitleName">Fire</a>
+                        <br />
+                        <a
+                            href="https://www.mage-hub.com/fire#3"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.mage-hub.com/fire#3"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="mage talentSpecTitleName">Frost</a>
+                        <br />
+                        <a
+                            href="https://www.mage-hub.com/frost#3"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.mage-hub.com/frost#3"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                </div>
+                <div class="flexCrestContainerRow large">
+                    <a class="crestBorder">
+                        <div
+                            class="crestImage"
+                            style="
+                                background-image: url('/img/Crests/Monk_Crest.webp');
+                            "
+                        ></div>
+                        <div class="monk crestName">Monk</div>
+                    </a>
+                    <p class="talentList">
+                        <a class="monk talentSpecTitleName">Brewmaster</a>
+                        <br />
+                        <a
+                            href="https://raid.subcreation.net/vault-brewmaster-monk-heroic.html#class_active"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://mplus.subcreation.net/brewmaster-monk.html#class_active"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="monk talentSpecTitleName">Mistweaver</a>
+                        <br />
+                        <a
+                            href="https://raid.subcreation.net/vault-mistweaver-monk-heroic.html#class_active"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://mplus.subcreation.net/mistweaver-monk.html#class_active"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="monk talentSpecTitleName">Windwalker</a>
+                        <br />
+                        <a
+                            href="https://raid.subcreation.net/vault-windwalker-monk-heroic.html#class_active"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://mplus.subcreation.net/windwalker-monk.html#class_active"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                </div>
+                <div class="flexCrestContainerRow large">
+                    <a class="crestBorder">
+                        <div
+                            class="crestImage"
+                            style="
+                                background-image: url('/img/Crests/Paladin_Crest.webp');
+                            "
+                        ></div>
+                        <div class="paladin crestName">Paladin</div>
+                    </a>
+                    <p class="talentList">
+                        <a class="paladin talentSpecTitleName">Holy</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/paladin/holy/talent-builds-pve-healer#raid-builds"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a href="https://wingsisup.com/" target="_blank">M+</a>
+                    </p>
+                    <p class="talentList">
+                        <a class="paladin talentSpecTitleName">Protection</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/paladin/protection/talent-builds-pve-tank#raid-talent-build"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/paladin/protection/talent-builds-pve-tank#mythic-talent-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="paladin talentSpecTitleName">Retribution</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/paladin/retribution/talent-builds-pve-dps#raid-talent-build"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/paladin/retribution/talent-builds-pve-dps#mythic-talent-builds"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                </div>
+                <div class="flexCrestContainerRow large">
+                    <a class="crestBorder">
+                        <div
+                            class="crestImage"
+                            style="
+                                background-image: url('/img/Crests/Priest_Crest.webp');
+                            "
+                        ></div>
+                        <div class="priest crestName">Priest</div>
+                    </a>
+                    <p class="talentList">
+                        <a class="priest talentSpecTitleName">Discipline</a>
+                        <br />
+                        <a
+                            href="https://www.icy-veins.com/wow/discipline-priest-pve-healing-spec-builds-talents"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.icy-veins.com/wow/discipline-priest-pve-healing-spec-builds-talents"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="priest talentSpecTitleName">Holy</a>
+                        <br />
+                        <a
+                            href="https://mechanicalpriest.com/posts/holy-priest-dragonflight-launch-survival-guide#raid-healing-builds"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://mechanicalpriest.com/posts/holy-priest-dragonflight-launch-survival-guide#dungeon-healing-starter-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="priest talentSpecTitleName">Shadow</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/priest/shadow/talent-builds-pve-dps#raid-talent-builds"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/priest/shadow/talent-builds-pve-dps#mythic-talent-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                </div>
+                <div class="flexCrestContainerRow large">
+                    <a class="crestBorder">
+                        <div
+                            class="crestImage"
+                            style="
+                                background-image: url('/img/Crests/Rogue_Crest.webp#');
+                            "
+                        ></div>
+                        <div class="rogue crestName">Rogue</div>
+                    </a>
+                    <p class="talentList">
+                        <a class="rogue talentSpecTitleName">Assassination</a>
+                        <br />
+                        <a
+                            href="https://raid.subcreation.net/vault-assassination-rogue-heroic.html#class_tree"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://mplus.subcreation.net/assassination-rogue.html#class_active"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="rogue talentSpecTitleName">Outlaw</a>
+                        <br />
+                        <a
+                            href="https://raid.subcreation.net/vault-outlaw-rogue-heroic.html#class_tree"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://mplus.subcreation.net/outlaw-rogue.html#class_active"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="rogue talentSpecTitleName">Subtlety</a>
+                        <br />
+                        <a
+                            href="https://raid.subcreation.net/vault-subtlety-rogue-heroic.html#class_tree"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://mplus.subcreation.net/subtlety-rogue.html#class_active"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                </div>
+                <div class="flexCrestContainerRow large">
+                    <a class="crestBorder">
+                        <div
+                            class="crestImage"
+                            style="
+                                background-image: url('/img/Crests/Shaman_Crest.webp');
+                            "
+                        ></div>
+                        <div class="shaman crestName">Shaman</div>
+                    </a>
+                    <p class="talentList">
+                        <a class="shaman talentSpecTitleName">Elemental</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/shaman/elemental/talent-builds-pve-dps#raid-talent-build"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/shaman/elemental/talent-builds-pve-dps#mythic-talent-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="shaman talentSpecTitleName">Enhancement</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/shaman/enhancement/talent-builds-pve-dps#talent-builds"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/shaman/enhancement/mythic-plus-dungeon-tips#builds-per-dungeon"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="shaman talentSpecTitleName">Restoration</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/shaman/restoration/talent-builds-pve-healer#raid-talent-build"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/shaman/restoration/talent-builds-pve-healer#mythic-talent-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                </div>
+                <div class="flexCrestContainerRow large">
+                    <a class="crestBorder">
+                        <div
+                            class="crestImage"
+                            style="
+                                background-image: url('/img/Crests/Warlock_Crest.webp');
+                            "
+                        ></div>
+                        <div class="warlock crestName">Warlock</div>
+                    </a>
+                    <p class="talentList">
+                        <a class="warlock talentSpecTitleName">Affliction</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/warlock/affliction/talent-builds-pve-dps#affliction-warlock-raid-talent-builds"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/warlock/affliction/talent-builds-pve-dps#affliction-warlock-mythic-talent-builds"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="warlock talentSpecTitleName">Demonology</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/warlock/demonology/talent-builds-pve-dps#raid-talent-builds"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/guide/classes/warlock/demonology/talent-builds-pve-dps#mythic-talent-build"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="warlock talentSpecTitleName">Destruction</a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/talent-calc/warlock/destruction/DAORKkRVARBVIVIgUCVQNVFFQEgEioVAmFCEA"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://www.wowhead.com/talent-calc/warlock/destruction/DAORKkRVARBVIVIgUCVQNVVVUQgAgoRgoRCEV"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                </div>
+                <div class="flexCrestContainerRow large">
+                    <a class="crestBorder">
+                        <div
+                            class="crestImage"
+                            style="
+                                background-image: url('/img/Crests/Warrior_Crest.webp');
+                            "
+                        ></div>
+                        <div class="warrior crestName">Warrior</div>
+                    </a>
+                    <p class="talentList">
+                        <a class="warrior talentSpecTitleName">Arms</a>
+                        <br />
+                        <a
+                            href="https://raid.subcreation.net/vault-arms-warrior-heroic.html#class_active"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://mplus.subcreation.net/arms-warrior.html"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="warrior talentSpecTitleName">Fury</a>
+                        <br />
+                        <a
+                            href="https://raid.subcreation.net/vault-fury-warrior-heroic.html#class_active"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://mplus.subcreation.net/fury-warrior.html#class_active"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a class="warrior talentSpecTitleName">Protection</a>
+                        <br />
+                        <a
+                            href="https://raid.subcreation.net/vault-protection-warrior-heroic.html#class_active"
+                            target="_blank"
+                        >
+                            Raid
+                        </a>
+                        <br />
+                        <a
+                            href="https://mplus.subcreation.net/protection-warrior.html#class_active"
+                            target="_blank"
+                        >
+                            M+
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="flexContainerColumn">
+                <h2 class="centerItem">Other Guides</h2>
+                <div class="flexContainerRow large hasTitle">
+                    <p class="talentList">
+                        <a
+                            href="https://www.wowhead.com/news/best-talent-builds-for-all-classes-updated-for-evoker-in-dragonflight-pre-patch-329876"
+                            target="_blank"
+                        >
+                            Level 60 Raid/Dungeon
+                        </a>
+                    </p>
+                    <p class="talentList">
+                        <a
+                            href="https://www.wowhead.com/news/leveling-and-questing-talent-builds-for-all-classes-updated-for-evoker-in-329877"
+                            target="_blank"
+                        >
+                            Leveling 60-70
+                        </a>
+                    </p>
+                </div>
+                <div class="flexContainerRow large centerItem">
+                    <p class="talentList">
+                        <a
+                            href="https://github.com/AcidWeb/Clean-Icons-Mechagnome-Edition/releases/"
+                            target="_blank"
+                        >
+                            High Res Icons
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="extension"></div>
+        </div>
+    </body>
+    <script src="./amirdrassilModal.js"></script>
+    <script src="./aberrusModal.js"></script>
+    <script src="./vaultModal.js"></script>
+    <script src="./timer.js"></script>
+    <script src="./randomBG.js"></script>
+    <script src="./overlay.js"></script>
+</html>
