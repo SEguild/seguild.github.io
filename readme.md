@@ -10,10 +10,6 @@
 <br/><br/>
 --- [Guides](classic/df/guides/guides.html)
 <br/><br/><br/><br/><br/>
-<h1 style="text-align-last: center">World of Warcraft Remix: MoP</h1>
-<br/><br/>
---- [Guides](/classic/mopremix/guides/guides.html)
-<br/><br/><br/><br/><br/>
 <h1 style="text-align-last: center">World of Warcraft Classic: WotlK</h1>
 <br/><br/>
 --- [Guides](/classic/classic/guides/guides.html)
