@@ -227,7 +227,7 @@ p {
     min-width: 200px;
 }
 
-.amirdrassilModal {
+.nerubarModal {
     display: none;
     position: fixed;
     z-index: 4;
@@ -239,21 +239,53 @@ p {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
 }
-.amirdrassilModal-content {
+.nerubarModal-content {
     background-color: #1d1d1d;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 55%;
 }
-.amirdrassilClose {
+.nerubarClose {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
-.amirdrassilClose:hover,
-.amirdrassilClose:focus {
+.nerubarClose:hover,
+.nerubarClose:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nerubarEntranceModal {
+    display: none;
+    position: fixed;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.nerubarEntranceModal-content {
+    background-color: #1d1d1d;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 55%;
+}
+.nerubarEntranceClose {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.nerubarEntranceClose:hover,
+.nerubarEntranceClose:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
