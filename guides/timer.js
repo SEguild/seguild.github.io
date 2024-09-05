@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Nov 15, 2023 11:00:00").getTime();
+var countDownDate = new Date("Sep 11, 2024 09:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -17,7 +17,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("timer").innerHTML = "Release: " + days + "d " + hours + "h "
+  document.getElementById("timer").innerHTML = "Raid-Release: " + days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
   // If the count down is finished, write some text
