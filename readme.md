@@ -5,7 +5,7 @@
 --- [Guides](/guides/guides.html)
 <br/><br/><br/><br/><br/>
 <h1 style="text-align-last: center">World of Warcraft Classic: MoP</h1>
-<<br/><br/>
+<br/><br/>
 --- [Classic Weak Auras (soon)](/classic/mop/soo/wa/weakauras.html)
 <br/><br/>
 --- [SoO Guides (soon)](/classic/mop/soo/guides/guides.html)
