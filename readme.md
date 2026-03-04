@@ -1,6 +1,8 @@
 <h1 style="text-align-last: center">World of Warcraft Midnight</h1>
 <br/><br/>
 --- [Midnight Guides (soon)](/guides/guides.html)
+<br/><br/>
+--- [Midnight Gear Overview](/midnight/wow_midnight_gear_guide.html)
 <br/><br/><br/><br/><br/>
 <h1 style="text-align-last: center">World of Warcraft Classic: MoP</h1>
 <br/><br/>
